@@ -1,0 +1,12 @@
+
+This plugin overrides tiddlyweb.web.util:server_host_url to pay
+attention to the HTTP_HOST variable if it is present and use it for
+creating outgoing urls. By default the url provided by the server_host
+settings in config is used.
+
+This allows one TiddlyWeb server to support multiple hosts in a
+named virtual host kind of way.
+
+Copyright 2010-2011, Chris Dent <cdent@peermore.com>
+
+Licensed under the same terms as TiddlyWeb: BSD License.
