@@ -6,7 +6,3 @@ settings in config is used.
 
 This allows one TiddlyWeb server to support multiple hosts in a
 named virtual host kind of way.
-
-Copyright 2010-2011, Chris Dent <cdent@peermore.com>
-
-Licensed under the same terms as TiddlyWeb: BSD License.
