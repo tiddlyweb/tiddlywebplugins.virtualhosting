@@ -2,7 +2,7 @@ AUTHOR = 'Chris Dent'
 AUTHOR_EMAIL = 'cdent@peermore.com'
 NAME = 'tiddlywebplugins.virtualhosting'
 DESCRIPTION = 'Enable virtualhosts from the same tiddlyweb server.'
-VERSION = '0.3'
+VERSION = '0.4'
 
 
 import os

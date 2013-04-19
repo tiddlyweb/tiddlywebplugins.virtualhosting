@@ -20,7 +20,7 @@ def virtual_server_host_url(environ):
     """
     http_host = environ.get('HTTP_HOST')
     if http_host:
-        return '%s://%s' % (environ['wsgi.url_scheme'], http_host)
+        return '%s://%s' % (environ.get('wsgi.url_scheme', 'http'), http_host)
     else:
         return original_server_host_url(environ)
 
